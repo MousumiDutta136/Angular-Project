@@ -1,0 +1,24 @@
+
+<mat-toolbar  color="accent">
+  <mat-toolbar-row class="example-spacer">
+    <span class="material-icons">cell_tower</span>
+    <span align="left"> <h1>{{title}}</h1></span>
+    <span class="example-spacer" align="center">
+    
+      <span  routerLink="/home">Home  </span>
+      <span  routerLink="/docs">Docs </span>
+      <span  routerLink="/ebooks">eBooks  </span>
+      <span  routerLink="/interviewqa">InterviewQA  </span>
+      <span  routerLink="/quiz">Quiz  </span>
+      <span  routerLink="/news">News </span>
+      <span  routerLink="/events">Events  </span>
+      <span  routerLink="/feedback">Feedback  </span>
+    
+    </span>
+    <span class="material-icons">account_circle</span>
+  
+    <span  align="right"><h3>Welcome {{guest}}</h3></span>
+    <button mat-raised-button class="matbuttons" routerLink="/login" >Logout</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
